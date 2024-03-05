@@ -28,7 +28,7 @@ Welcome to the DatDev website! This is a simple website created using HTML, CSS,
 
 This project is maintained by Dat Nguyen.
 
-- GitHub: [Your GitHub Profile](https://github.com/realthdat)
+- GitHub: [DatDev](https://github.com/realthdat)
 
 ## License
 
