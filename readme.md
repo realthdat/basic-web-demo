@@ -20,7 +20,7 @@ Welcome to the DatDev website! This is a simple website created using HTML, CSS,
 
 ## How to Use
 
-1. Clone the repository: `git clone <repository-url>`
+1. Clone the repository: `git clone [<repository-url>](https://github.com/realthdat/basic-web-demo.git)`
 2. Navigate to the project directory: `cd DatDev-Website`
 3. Open `index.html` or `about.html` in your web browser to view the website.
 
