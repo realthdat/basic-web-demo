@@ -1,0 +1,252 @@
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxP.ttf) format("truetype");
+}
+
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Set minimum height to 100% of the viewport height */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.logo {
+    width: 200px; /* Set width of the logo */
+    height: 100px; /* Set height of the logo */
+    background-size: contain; /* Adjust image sizing as needed */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+nav {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.brief-description img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+#more-info {
+    margin-top: 20px;
+}
+
+.about-info {
+
+    color: #fff;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.theme-bg-primary {
+    background: #333;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.single-col-max {
+    max-width: 760px;
+}
+
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.pt-4 {
+    padding-top: 1.5rem !important;
+}
+
+.author-section {
+    margin-top: 50px;
+    color: #fff;
+}
+
+.author-section .author-pic {
+    width: 150px;
+    height: 150px;
+}
+
+.author-section .social-list li {
+    background: rgba(0, 0, 0, 0.1);
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    border-radius: 50%;
+    padding-top: 6px;
+}
+
+.author-section .social-list li:hover {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.author-section .social-list a {
+    color: #fff;
+}
+
+.theme-bg-primary a.theme-link {
+    color: #fff;
+    text-decoration: underline;
+    -webkit-text-decoration-color: rgba(255, 255, 255, 0.5);
+    text-decoration-color: rgba(255, 255, 255, 0.5);
+}
+
+.theme-bg-primary a.theme-link:hover {
+    color: #fff;
+    -webkit-text-decoration-color: #fff;
+    text-decoration-color: #fff;
+}
+
+
+.author-section .social-list a {
+    color: #fff;
+}
+
+
+.social-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.social-list li {
+    display: inline-block;
+    margin-right: 30px; /* Adjust as needed */
+}
+
+.social-list li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+.social-list a {
+    display: inline-block;
+    width: 45px; /* Adjust icon size */
+    height: 45px; /* Adjust icon size */
+    line-height: 53px; /* Center icon vertically */
+    text-align: center; /* Center icon horizontally */
+    background-color: #242424; /* Background color for the icon container */
+    color: #fff; /* Icon color */
+    border-radius: 50%; /* Rounded corners for circular shape */
+
+}
+
+.social-list a:hover {
+    background-color: #000000; /* Change background color on hover */
+}
+
+/* Adjust icon size if necessary */
+.social-list a i {
+    font-size: 25px;
+}
+
+.fa-facebook,
+.fa-github,
+.fa-twitter {
+    font-size: 2em;
+}
+
+.node-header, .node-submitted-details {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 15px;
+    color: #727b88;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+}
+
+.section-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    flex: 1;
+    margin: 10px;
+}
+
+.section .brief-description ul li a {
+    text-decoration: none; /* Removes underline from the bottom */
+    color: #000000;
+}
+
